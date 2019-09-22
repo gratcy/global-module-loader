@@ -48,10 +48,6 @@ useGlobalIdForKeyName
 
 module.exports = buildDictionary
 
-var isPlainObject = function (obj) {
-  return Object.prototype.toString.call(obj) === '[object Object]'
-}
-
 function buildDictionary (options, cb) {
   // Defaults
   options.replaceVal = options.replaceVal || ''
