@@ -1,0 +1,40 @@
+{
+  "name": "global-module-loader",
+  "version": "1.0.0",
+  "description": "load all module as global var ",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/standard"
+  },
+  "keywords": [
+    "autoload",
+    "autoload-module",
+    "module-loader"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gratcy/global-module-loader.git"
+  },
+  "author": "gratcy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gratcy/global-module-loader/issues"
+  },
+  "homepage": "https://github.com/gratcy/global-module-loader#readme",
+  "dependencies": {
+    "include-all": "^2.0.0"
+  },
+  "standard": {
+    "ignore": [
+      "/test/*.js",
+      "**/*.opts"
+    ]
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "devDependencies": {
+    "pre-commit": "^1.1.3",
+    "standard": "^8.5.0"
+  }
+}
